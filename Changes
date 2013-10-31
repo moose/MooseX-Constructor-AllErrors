@@ -59,7 +59,7 @@ Revision history for {{$dist->name}}
   - don't fail if the value given for an attribute would pass validation after
     coercions
 
-0.007   Mon, 27 Apr 2009 11:26:35 -0400
+0.007   2009-04-27 15:26:35
   - avoid Moose deprecation warning
 
 0.006   2009-04-05
