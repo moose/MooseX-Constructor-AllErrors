@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.022     2013-10-31 05:59:07Z
   - compatibility updates for Moose::Exception objects new in Moose 2.1200
     (ether)
   - repository migrated from shadowcat to the github moose organization
