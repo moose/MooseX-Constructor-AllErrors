@@ -1,4 +1,5 @@
 package MooseX::Constructor::AllErrors::Role::Object;
+# ABSTRACT: object role for verifying constructor arguments
 
 use Moose::Role;
 use Try::Tiny;

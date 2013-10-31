@@ -1,4 +1,5 @@
 package MooseX::Constructor::AllErrors::Error::Misc;
+# ABSTRACT: represents a miscellaneous error
 
 use Moose;
 extends 'MooseX::Constructor::AllErrors::Error';
@@ -11,9 +12,7 @@ has message => (
 1;
 __END__
 
-=head1 NAME
-
-MooseX::Constructor::AllErrors::Error::Misc - represents a miscellaneous error
+=pod
 
 =head1 DESCRIPTION
 
@@ -63,15 +62,4 @@ Returns a human-readable error message for this error.
 
 L<Moose>
 
-=head1 AUTHOR
-
-  Karen Etheridge <ether@cpan.org>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2009 by Karen Etheridge. This is free
-software; you can redistribute it and/or modify it under the same terms as perl
-itself.
-
 =cut
-

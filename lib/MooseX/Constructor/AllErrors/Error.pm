@@ -1,14 +1,13 @@
 # vim: ts=4 sts=4 sw=4
 package MooseX::Constructor::AllErrors::Error;
+# ABSTRACT: base class for individual constructor errors
 
 use Moose;
 
 1;
 __END__
 
-=head1 NAME
-
-MooseX::Constructor::AllErrors::Error - base class for individual constructor errors
+=pod
 
 =head1 DESCRIPTION
 
@@ -25,15 +24,5 @@ Returns a human-readable error message for this error.
 =head1 SEE ALSO
 
 L<Moose>
-
-=head1 AUTHOR
-
-  Hans Dieter Pearcey <hdp@cpan.org>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2009 by Hans Dieter Pearcey. This is free
-software; you can redistribute it and/or modify it under the same terms as perl
-itself.
 
 =cut
