@@ -1,12 +1,3 @@
-/META.yml
-/Makefile
-/Makefile.old
-/MANIFEST
-/MANIFEST.bak
-/blib/
-/inc/
-/pm_to_blib
-.*
+/.build/
 !.gitignore
-/MooseX-*
-todo.txt
+/MooseX-Constructor-AllErrors-*
