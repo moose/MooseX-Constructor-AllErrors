@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  * compatibility updates for Moose::Exception objects new in Moose 2.1200
+    (ether)
 
 0.021     2012-06-21 15:01:04 PDT-0700 (Karen Etheridge)
   * use of auto_deref in MooseX::Constructor::AllErrors::Error::Constructor

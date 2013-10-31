@@ -56,7 +56,7 @@ around BUILDARGS => sub {
   }
 
   if ($error->has_errors) {
-    $meta->throw_error($error, params => $args);
+    die $error;
   }
 
   return $args;
