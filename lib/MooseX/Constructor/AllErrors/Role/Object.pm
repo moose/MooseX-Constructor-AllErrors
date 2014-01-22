@@ -57,7 +57,15 @@ around BUILDARGS => sub {
   }
 
   if ($error->has_errors) {
-    die $error;
+    if ($meta->can('error_class'))
+    {
+      # Moose before 2.1100, and possibly 2.12xx too
+      $meta->throw_error(message => $error);
+    }
+    else
+    {
+      die $error;
+    }
   }
 
   return $args;

@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - use $meta->throw-error when there is an error_class (pre-Moose-2.1100)
 
 0.022     2013-10-31 05:59:07Z
   - compatibility updates for Moose::Exception objects new in Moose 2.1200
