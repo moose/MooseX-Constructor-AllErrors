@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.023     2014-01-22 04:01:40Z
   - use $meta->throw-error when there is an error_class (pre-Moose-2.1100)
 
 0.022     2013-10-31 05:59:07Z

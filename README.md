@@ -4,7 +4,7 @@ MooseX::Constructor::AllErrors - capture all constructor errors
 
 # VERSION
 
-version 0.022
+version 0.023
 
 # SYNOPSIS
 
@@ -25,12 +25,12 @@ MooseX::Constructor::AllErrors tries to capture every error generated during
 the construction of your objects, rather than halting after the first.
 
 If there are errors, `$@` will contain a
-[MooseX::Constructor::AllErrors::Error::Constructor](http://search.cpan.org/perldoc?MooseX::Constructor::AllErrors::Error::Constructor) object.  See its
+[MooseX::Constructor::AllErrors::Error::Constructor](https://metacpan.org/pod/MooseX::Constructor::AllErrors::Error::Constructor) object.  See its
 documentation for possible error types.
 
 # SEE ALSO
 
-[Moose](http://search.cpan.org/perldoc?Moose)
+[Moose](https://metacpan.org/pod/Moose)
 
 # AUTHOR
 
