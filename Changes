@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - restore params hash to call to throw_error (RT#93709)
 
 0.023     2014-01-22 04:01:40Z
   - use $meta->throw-error when there is an error_class (pre-Moose-2.1100)
