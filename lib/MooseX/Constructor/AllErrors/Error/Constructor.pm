@@ -2,6 +2,7 @@ package MooseX::Constructor::AllErrors::Error::Constructor;
 # ABSTRACT: error class for MooseX::Constructor::AllErrors
 
 use Moose;
+use namespace::clean;   # FIXME: namespace::autoclean does not respect overloads
 
 has errors => (
     isa => 'ArrayRef[MooseX::Constructor::AllErrors::Error]',

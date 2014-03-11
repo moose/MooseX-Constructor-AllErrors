@@ -3,6 +3,7 @@ package MooseX::Constructor::AllErrors::Error;
 # ABSTRACT: base class for individual constructor errors
 
 use Moose;
+use namespace::autoclean;
 
 1;
 __END__

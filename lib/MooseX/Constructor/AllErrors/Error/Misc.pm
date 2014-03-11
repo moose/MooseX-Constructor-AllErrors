@@ -3,6 +3,7 @@ package MooseX::Constructor::AllErrors::Error::Misc;
 
 use Moose;
 extends 'MooseX::Constructor::AllErrors::Error';
+use namespace::autoclean;
 
 has message => (
     is => 'ro', isa => 'Str',

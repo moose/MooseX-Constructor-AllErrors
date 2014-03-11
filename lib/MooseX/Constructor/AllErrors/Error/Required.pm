@@ -3,6 +3,7 @@ package MooseX::Constructor::AllErrors::Error::Required;
 
 use Moose;
 extends 'MooseX::Constructor::AllErrors::Error';
+use namespace::autoclean;
 
 has attribute => (
     is => 'ro',

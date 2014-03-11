@@ -3,6 +3,7 @@ package MooseX::Constructor::AllErrors::Role::Object;
 
 use Moose::Role;
 use Try::Tiny;
+use namespace::autoclean;
 
 my $new_error = sub {
   my $class = shift;
