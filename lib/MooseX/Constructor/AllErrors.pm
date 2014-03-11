@@ -1,5 +1,5 @@
 package MooseX::Constructor::AllErrors;
-# ABSTRACT: capture all constructor errors
+# ABSTRACT: Capture all constructor errors
 
 use Moose ();
 use Moose::Exporter;
