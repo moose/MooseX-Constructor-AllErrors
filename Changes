@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.024     2014-03-11 02:20:42Z
   - restore params hash to call to throw_error (RT#93709)
 
 0.023     2014-01-22 04:01:40Z

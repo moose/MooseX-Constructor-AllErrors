@@ -1,10 +1,10 @@
 # NAME
 
-MooseX::Constructor::AllErrors - capture all constructor errors
+MooseX::Constructor::AllErrors - Capture all constructor errors
 
 # VERSION
 
-version 0.023
+version 0.024
 
 # SYNOPSIS
 
@@ -42,3 +42,10 @@ This software is copyright (c) 2009 by Hans Dieter Pearcey.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+# CONTRIBUTORS
+
+- Hans Dieter Pearcey <hdp@weftsoar.net>
+- Jesse Luehrs <doy@tozt.net>
+- Karen Etheridge <ether@cpan.org>
+- Shawn Sorichetti <ssoriche@gmail.com>
