@@ -1,4 +1,6 @@
+/.ackrc
 /.build/
-!.gitignore
-/MooseX-Constructor-AllErrors-*
-/todo.txt
+!/.gitignore
+/.latest
+/MooseX-Constructor-AllErrors-*/
+/MooseX-Constructor-AllErrors-*.tar.gz
