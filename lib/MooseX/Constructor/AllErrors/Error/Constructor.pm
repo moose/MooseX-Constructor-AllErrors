@@ -4,7 +4,7 @@ package MooseX::Constructor::AllErrors::Error::Constructor;
 our $VERSION = '0.025';
 
 use Moose;
-use namespace::clean;   # FIXME: namespace::autoclean does not respect overloads
+use namespace::autoclean 0.16;  # overload handling
 
 has errors => (
     isa => 'ArrayRef[MooseX::Constructor::AllErrors::Error]',
