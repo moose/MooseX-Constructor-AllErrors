@@ -1,6 +1,8 @@
 package MooseX::Constructor::AllErrors::Error::Misc;
 # ABSTRACT: represents a miscellaneous error
 
+our $VERSION = '0.025';
+
 use Moose;
 extends 'MooseX::Constructor::AllErrors::Error';
 use namespace::autoclean;

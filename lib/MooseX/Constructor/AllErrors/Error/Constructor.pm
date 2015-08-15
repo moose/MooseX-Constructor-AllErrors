@@ -1,6 +1,8 @@
 package MooseX::Constructor::AllErrors::Error::Constructor;
 # ABSTRACT: error class for MooseX::Constructor::AllErrors
 
+our $VERSION = '0.025';
+
 use Moose;
 use namespace::clean;   # FIXME: namespace::autoclean does not respect overloads
 

@@ -1,6 +1,8 @@
 package MooseX::Constructor::AllErrors::Error::Required;
 # ABSTRACT: represents a missing argument error
 
+our $VERSION = '0.025';
+
 use Moose;
 extends 'MooseX::Constructor::AllErrors::Error';
 use namespace::autoclean;

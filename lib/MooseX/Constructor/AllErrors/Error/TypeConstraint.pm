@@ -1,6 +1,8 @@
 package MooseX::Constructor::AllErrors::Error::TypeConstraint;
 # ABSTRACT: represents a type constraint validation error
 
+our $VERSION = '0.025';
+
 use Moose;
 extends 'MooseX::Constructor::AllErrors::Error';
 use namespace::autoclean;
