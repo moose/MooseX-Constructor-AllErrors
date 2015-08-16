@@ -1,6 +1,7 @@
 Revision history for MooseX-Constructor-AllErrors
 
 {{$NEXT}}
+  - modernize some bits of the distribution packaging
 
 0.024     2014-03-11 02:20:42Z
   - restore params hash to call to throw_error (RT#93709)
