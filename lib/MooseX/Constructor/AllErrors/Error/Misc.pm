@@ -1,7 +1,7 @@
 package MooseX::Constructor::AllErrors::Error::Misc;
 # ABSTRACT: represents a miscellaneous error
 
-our $VERSION = '0.025';
+our $VERSION = '0.026';
 
 use Moose;
 extends 'MooseX::Constructor::AllErrors::Error';

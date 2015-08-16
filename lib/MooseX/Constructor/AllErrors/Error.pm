@@ -2,7 +2,7 @@
 package MooseX::Constructor::AllErrors::Error;
 # ABSTRACT: base class for individual constructor errors
 
-our $VERSION = '0.025';
+our $VERSION = '0.026';
 
 use Moose;
 use namespace::autoclean;

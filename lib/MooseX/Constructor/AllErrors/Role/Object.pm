@@ -1,7 +1,7 @@
 package MooseX::Constructor::AllErrors::Role::Object;
 # ABSTRACT: object role for verifying constructor arguments
 
-our $VERSION = '0.025';
+our $VERSION = '0.026';
 
 use Moose::Role;
 use Try::Tiny;

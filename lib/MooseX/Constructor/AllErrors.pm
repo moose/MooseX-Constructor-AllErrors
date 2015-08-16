@@ -1,7 +1,7 @@
 package MooseX::Constructor::AllErrors;
 # ABSTRACT: Capture all constructor errors
 
-our $VERSION = '0.025';
+our $VERSION = '0.026';
 
 use Moose ();
 use Moose::Exporter;
