@@ -28,7 +28,7 @@ use warnings;
     }
 }
 
-use Test::More;
+use Test::More 0.88;
 use Test::Moose;
 
 my @classes = qw(Parent Child);
